@@ -211,103 +211,28 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-   "4",  
-"APICLI",  
-"addbot1",  
-"admin",  
-"all",  
-"anti-spam", 
-"anti_media",
-"ar-azan",  
-"ar-badword",  
-"ar-banhammmer",  
-"ar-broadcast", 
-"ar-getfile", 
-"ar-h1",  
-"ar-h2",  
-"ar-h3",  
-"ar-lock-bot", 
-"ar-lock-ffwd", 
-"ar-map",  
-"ar-superrgroup",  
-"ar-weather",  
-"arabic_lock",  
-"auto_run",  
-"azan",  
-"banhammer",  
-"broadcast",  
-" bye",  
-"dobye",  
-"dowelcome",  
-"echo", 
-"filter",  
-"get",  
-"help",  
-"help2",  
-"helps.pv",  
-"image23", 
-"infoeng",  
-"ingroup",
-"inpm",  
-"inrealm",  
-"instagram", 
-"invite",  
-"leave_ban",  
-"linkpv ", 
-"list",  
-"list3 ", 
-"listt1",  
-"lock_badword",  
-"lock_emoji",  
-"lock_english",  
-"lock_fwwd",  
-"lock_join",  
-"lock_reply",  
-"lock_tag",  
-"lock_usernam", 
-"meee12",  
-"msg_checks",  
-"music_eng",  
-"onservice",  
-"owners",  
-"plugins",  
-"rdod",
-"rebot",  
-"rediss",  
-"reply",  
-"send",  
-"serverinfo",  
-"set",  
-"set_type",  
-"short_link",  
-"stats",  
-"sticker23",  
-"sudolist",  
-"super",  
-"tag_english",  
-"textphoto", 
-"time",  
-"translate",  
-"voice",  
-"weather", 
-"welecam",  
-"whitelist", 
-"writer"
+"admin",
+"deletall",
+"help",
+"id",
+"info",
+"link",
+"plugins",
+"replay",
+"super",
+"welcoome",
+"kick",			
     },
-    sudo_users = { 73928866,250180860,177659243,0},--Sudo users
+    sudo_users = { 103810497,0},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[DevPoint v1
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/hussian1997/bot_Iraq1997
+hhttps://github.com/DevCobra/Cobra.iraq
 Admins
-@TH3_GHOST
-@MOHAMMED_ZEDAN
-Channel DEV POINT TEAM
-@DevPointTeam
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [English]
+@G0vip
+Channel :@hlusat
+
 
 ]],
     help_text_realm = [[
