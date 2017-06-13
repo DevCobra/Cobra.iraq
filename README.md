@@ -1,8 +1,9 @@
 طريقة تنصيب اقوى سورس بالتليكرام سورس كوبرا 
+افتح ترمنال وخلي هذا الكود
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️
 sudo apt-get update 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️
-بعدين تفتح ترمنال جديد وتخلي الكود بالتسلسل 
+بعدين خلي الكود بالتسلسل 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️
