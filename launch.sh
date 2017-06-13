@@ -11,7 +11,7 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/keplerproject/luarocks.git
+  git clone https://github.com/DevCobra/Cobra.iraq
   cd luarocks
   git checkout tags/v2.3.0-rc2 # Release Candidate
 
@@ -128,12 +128,12 @@ else
   
   chmod 777 devpoint.sh
   
-  #Adding some color. By @MehdiHS
+  #Adding some color. By @G0vip
    echo -e "\033[38;5;208m"
-   echo -e "     > Channel : @DevPointTeam                        "
-   echo -e "     > Developer : @TH3_GHOST                       "
-   echo -e "     > Bot ID : @SuperDevPoint                        "
-   echo -e "     > Github : GitHub.com/DevPointTeam/DevPoint     "
+   echo -e "     > Channel : @hlusat                       "
+   echo -e "     > Developer : @Cobra.iraq                      "
+   echo -e "     > Bot ID : @SuperCobra.iraq                        "
+   echo -e "     > Github : github.com/DevCobra/Cobra.iraq   "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/devpoint.lua -l 1 -E $@
